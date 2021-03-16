@@ -20,5 +20,13 @@ public class Cilindro extends Circulo{
         super(centro, x, y);
         this.altura = altura;
     }
+
+    public int getAltura() {
+        return altura;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
     
 }
